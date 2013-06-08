@@ -66,7 +66,7 @@ public class Pi implements Task<BigDecimal>, Serializable {
      */
     public static BigDecimal arctan(int inverseX, int scale)
     {
-        BigDecimal result, number, term;
+        BigDecimal result, numer, term;
         BigDecimal invX = BigDecimal.valueOf(inverseX);
         BigDecimal invX2 =
             BigDecimal.valueOf(inverseX * inverseX);
