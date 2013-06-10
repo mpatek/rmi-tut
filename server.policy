@@ -1,0 +1,3 @@
+grant codeBase "file:/home/michael/projects/rmi-tut/src/" {
+    permission java.security.AllPermission;
+};
